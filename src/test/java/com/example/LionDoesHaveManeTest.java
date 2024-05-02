@@ -10,7 +10,7 @@ public class LionDoesHaveManeTest {
     String lionSex;
     boolean doesHaveMane;
 
-    public LionDoesHaveManeTest(String lionSex, boolean doesLionHasMane) throws Exception {
+    public LionDoesHaveManeTest(String lionSex, boolean doesLionHasMane) {
         this.lionSex = lionSex;
         this.doesHaveMane = doesLionHasMane;
     }
