@@ -4,9 +4,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
-
 import java.util.List;
-
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.verify;
 
@@ -28,6 +26,7 @@ public class LionTest {
     public void lionGetFoodTest() throws Exception {
         assertEquals(lion.getFood(), List.of("Животные", "Птицы", "Рыба"));
     }
+
 
     // льва внутри тестов можно создавать с любыми параметрами
     // feline мокируем
