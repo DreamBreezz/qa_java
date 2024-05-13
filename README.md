@@ -22,7 +22,6 @@
 * JUnit 4
 * Mockito 3.12
 * Jacoco 0.8.12
-* AssertJ 3.11
 
 
 ## Настройка проекта

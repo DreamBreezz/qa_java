@@ -27,6 +27,12 @@ public class LionTest {
         assertEquals(lion.getFood(), List.of("Животные", "Птицы", "Рыба"));
     }
 
+    // лев выбрасывает ошибку, если ему подсунуть не "Самец" или "Самка"
+    @Test (expected = Exception.class)
+    public void lionThrowsExceptionTest() throws Exception {
+        Lion l = new Lion("Абырвалг", new Feline());
+    }
+
 
     // льва внутри тестов можно создавать с любыми параметрами
     // feline мокируем
